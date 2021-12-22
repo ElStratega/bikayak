@@ -1,0 +1,23 @@
+:root {
+    --color1: #b9d6c2;
+    --color2: #f7f1f1;
+    --color3: #cde0b4;
+}
+
+body{
+    background-color: var(--color1);
+    background: linear-gradient(
+        180deg,
+        var(--color2),
+        var(--color1),
+        var(--color3)
+    );
+    margin: auto;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-style: uppercase;
+}
